@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <style>
+    li{
+      margin: 0 0 10px 0;
+    }
+    #content{
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="headercontainer">
+  <div id="leftheader">
+     <a href="./index.html" target="_self"><img id="kuva" src="images/keke1.png" alt="Keke"></a>
+  </div>
+  <div id="rightheader">
+    <CENTER><H1>TIETOTURVAKÄSIKIRJA</H1></CENTER>
+  </div>
+</div>
+<!--Pääsisällön contrainer -->
+<div class="maincontainer">
+
+<!-- Sivupalkki -->
+  <div class="sidenav">
+<!--    <a href="" class="load-page" data-location="./content/johdanto.html">Johdanto</a>-->
+
+    <a href="" class="load-page" data-location="./content/yhteyshenkilot/vastuualueet.html">Yhteyshenkilöt</a>
+
+    <button class="dropdown-btn">Riskienhallinta<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+      <a href="" class="load-page" data-location="./content/riskienhallinta/ttlsattuessa.html">Tietoturvaloukkauksen sattuessa</a>
+    </div>
+
+    <button class="dropdown-btn">Henkilöstöturva<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+      <a href="" class="load-page" data-location="./content/henkilostoturva/yksityisyydensuoja.html">Yksityisyydensuoja</a>
+      <a href="" class="load-page" data-location="./content/henkilostoturva/kouluttautuminen.html">Kouluttautuminen</a>
+      <a href="" class="load-page" data-location="./content/henkilostoturva/sairaus.html">Sairauspoissaolot</a>
+      <a href="" class="load-page" data-location="./content/henkilostoturva/ensiapu.html">Ensiapu</a>
+    </div>
+
+    <button class="dropdown-btn">Toimitilat<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+      <a href="" class="load-page" data-location="./content/toimitilat/toimialue.html">Käytössä olevat tilat</a>
+<!--      <a href="" class="load-page" data-location="./content/toimitilat/varastoalue.html">Varastoalue</a>-->
+<!--      <a href="" class="load-page" data-location="./content/toimitilat/toimitilat.html">Yrityksen yleiset toimitilat</a>-->
+      <a href="" class="load-page" data-location="./content/toimitilat/vartiointi.html">Vartiointi</a>
+      <a href="" class="load-page" data-location="./content/toimitilat/valvonta.html">Valvonta</a>
+      <a href="" class="load-page" data-location="./content/toimitilat/huoneet.html">Työhuoneet</a>
+    </div>
+
+    <button class="dropdown-btn">Laitteisto<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+      <a href="" class="load-page" data-location="./content/laitteisto/tietojenkasittely.html">Tietojenkäsittely</a>
+      <a href="" class="load-page" data-location="./content/laitteisto/virusturva.html">Virusturva</a>
+      <a href="" class="load-page" data-location="./content/laitteisto/paivitykset.html">Päivitykset</a>
+      <a href="" class="load-page" data-location="./content/laitteisto/sahkoposti.html">Sähköposti</a>
+      <a href="" class="load-page" data-location="./content/laitteisto/salasanat.html">Salasanat</a>
+      <a href="" class="load-page" data-location="./content/laitteisto/internet.html">Internet</a>
+      <a href="" class="load-page" data-location="./content/laitteisto/kayttooikeudet.html">Käyttöoikeudet</a>
+      <a href="" class="load-page" data-location="./content/laitteisto/alylaitteet.html">Älylaitteet</a>
+<!--     <a href="" class="load-page" data-location="./content/laitteisto/varmuuskopiointi.html">Varmuuskopiointi</a>-->
+    </div>
+
+    <button class="dropdown-btn">Vaaratilanteet<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+<!--<a href="" class="load-page" data-location="./content/vaaratilanteet/evakuointi.html">Evakuointi</a>-->
+      <a href="" class="load-page" data-location="./content/vaaratilanteet/sairaustapaturma.html">Tapaturmat</a>
+      <a href="" class="load-page" data-location="./content/vaaratilanteet/paloturvallisuus.html">Paloturvallisuus</a>
+    </div>
+
+    <button class="dropdown-btn">Etätyöskentely<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+      <a href="" class="load-page" data-location="./content/etatyoskentely/etatyoskentely.html">Etätyöskentely</a>
+      <a href="" class="load-page" data-location="./content/etatyoskentely/kannettava.html">Kannettava tietokone</a>
+
+    </div>
+
+    <button class="dropdown-btn">Kuljetustyöntekijät<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+      <a href="" class="load-page" data-location="./content/kuljetustyontekijat/tyontekijoille.html">Kuljetustyöntekijät</a>
+      <a href="" class="load-page" data-location="./content/kuljetustyontekijat/kalusto.html">Kalusto</a>
+<!--      <a href="" class="load-page" data-location="./content/kuljetustyontekijat/alylaitteet.html">Älylaitteet</a>-->
+    </div>
+
+<!--     <button class="dropdown-btn">Ekstraajat<i class="fa fa-caret-down"></i></button>
+    <div id="dropdown-container">
+      <a href="" class="load-page" data-location="./content/ekstraajat/alkaessa.html">Työsuhteen alkaessa</a>
+      <a href="" class="load-page" data-location="./content/ekstraajat/loppuessa.html">Työsuhteen päättyessä</a>
+     <a href="" class="load-page" data-location="./content/ekstraajat/evahinko.html">Vahingon sattuessa</a>
+    </div>            -->
+
+    <a href="" class="load-page" data-location="./content/ekstraajat/yhdistetty.html">Vuokratyöntekijät</a>
+
+  </div>
+<!-- Sivupalkin päätös -->
+
+<!-- Main ------------------------------------------------------------------->
+  <div class="main" id="content">
+
+<h1>Tietoturvakäsikirja</h1>
+<p>Tämä tietoturvakäsikirja on koostettu Keken Kuljetuspalvelulle kaikkia yrityksessä työskenteleviä ajatellen.</p>
+<p>Käsikirjaan on koottu keskeisimmät perusasiat liittyen yrityksen tietoturvallisuuteen. Neuvot on tarkoitettu tietoturvallisuuden toteuttamiseen omassa työssä ja muissa käytännön tilanteissa.</p>
+<p></p>
+<p></p>
+<p></p>
+<p>Voit ladata uuden sivun vasemmalla sijaitsevaa navigointipalkkia käyttäen</p>
+
+
+  <!--  <form method="GET" action="#" style="float:right;">
+    <input type="submit" value="Takaisin ylös">
+  </form>
+              TÄHÄN HÄTÄÄN TURHA
+-->
+  </div>
+<!-- Main päättyy -->
+</div>
+
+<script src="./js/loadpage.js"></script>
+<!-- Navigaation toiminnot -->
+<script src="./js/script.js"></script>
+</body>
+<!-- Jani Tihula LLTIIT20S-->
+</html>

@@ -1,0 +1,123 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.headercontainer{
+  margin:auto;
+  max-width: 1200px;
+  background-color: RGBA(150,150,200,0.2);
+  display: flex;
+  height: 150px;
+  border-bottom: 1px solid #8888FF;
+}
+#leftheader{
+  width: 320px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+#rightheader{
+  flex-grow: 1;
+  border-left: 1px solid #8888FF;
+  font-size: 1.8em;
+  overflow: hidden;
+}
+#kuva{
+  width: 300px;
+  height: 150px;
+}
+iframe{
+  width: 915px;
+  height: 100%;
+}
+
+.maincontainer{
+  margin: auto;
+  max-width: 1200px;
+  min-height: 1000px;
+  background-color: (150,150,200,0.2);
+  display: flex;
+}
+.main {
+  margin-left: 20px;
+  font-size: 1.0em;
+  padding: 10px 20px;
+}
+.sidenav{
+  flex-wrap: wrap;
+  height: 100%;
+  min-width: 250px;
+  z-index: 1;
+  overflow: hidden;
+  border-right: 1px solid #8888FF;
+}
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #666666;
+  display:block;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 1px solid #8888FF;
+  background-color: RGBA(150,150,200,0.4);
+}
+.active {
+  background-color: RGBA(50,50,50,0.6);
+  color: white;
+}
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+  background-color: RGBA(50,50,50,0.3);
+}
+#dropdown-container {
+  display: none;
+  background-color: RGBA(50,50,50,0.3);
+  padding-left: 8px;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+/* media query puhelimelle ja tabletille */
+@media screen and (max-width: 768px){
+  .sidenav{
+    min-width: 100px;
+  }
+  .sidenav a, .dropdown-btn{
+    font-size: 10px;
+    padding-top: 3px;
+  }
+  #dropdown-container{
+    padding-left: 0px;
+  }
+  .main{
+    font-size: 12px;
+  }
+  .headercontainer{
+    display:none;
+  }
+}
+/*mediaquery alle 1050px*/
+@media screen and (max-width: 1050px){
+  .sidenav{
+    min-width: 150px;
+  }
+  .sidenav a, .dropdown-btn{
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  #dropdown-container{
+    padding-left: 2px;
+  }
+  .main{
+    font-size: 14px;
+  }
+  .headercontainer{height:100px;}
+  #leftheader{width:200px;}
+  #rightheader{font-size:1.4em;}
+  #kuva{width:200px; height: 100px;}
+}

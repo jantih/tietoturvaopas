@@ -1,0 +1,41 @@
+Löydät Teams sovelluksesta ohjeet siitä mihin osioon mikäkin kuva on suunniteltu katsomalla
+(Otsikointi.docx ) dokumentin.
+
+Kuvat 
+-Vartiointi.png
+-Tietoturvaloukkauksen sattuessa.png
+-Varastoalue kuriiriyrityksen kanssa.png
+
+Ovat suoraan kopioituja, jotka on editoitu muistuttamaan muiden kansiosta löytyvien kuvien tyyliä. 
+Kaikki yllämainitut kuvat ovat royalty free kuvia. Kuvat ovat tarkoitettu vapaaseen käyttöön 
+niiden alkuperäisten suunnittelijoiden toimesta. Linkit ovat tallessa Juuson tietokoneella tämän todistamiseksi.
+
+Kuvat 
+-Ensiapu.png
+-Evakuointi.png
+-Internet.png
+-Kouluttautuminen.png
+-Kuljetuskalusto.png
+-Käyttöoikeudet.png
+-Massamuistit.png
+-Paloturvallisuus.png
+-Sairauspoissaolot.png
+-Salasana.png
+-Sähköposti.png
+-Tapaturmat.png
+-Tietojenkäsittely.png
+-Työsuhteen päättyessä.png
+-Uudelle työntekijälle.png
+-Vahingon sattuessa.png
+-Valvonta.png
+-Varmuuskopiointi.png
+-Virusturva.png
+-Yksityisyydensuoja.png
+-Yrityksen toimialue.png
+-Yrityksen yleiset toimitilat.png
+-Työhuone.png
+-Älylaitteet.png
+
+Yllämainitut kuvat ovat suunniteltu käyttäen photoshoppia. Niiden suunnittelun apuna on 
+käytetty samantapaisia kuvia sekä valokuvia. Osa kuvista on piirretty mallista tyhjälle 
+piirtoalustalle. Kuvat vaiheittain löytyvät Juuson koneelta Adobe Photoshop Image.20 (.psd) formaattina.
