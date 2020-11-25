@@ -35,7 +35,7 @@ iframe{
   margin: auto;
   max-width: 1200px;
   min-height: 1000px;
-  background-color: (150,150,200,0.2);
+  background-color: RGBA(150,150,200,0.2);
   display: flex;
 }
 .main {
